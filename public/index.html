@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Twinsta</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div class="root">
+		<div class="container">
+			<div class="header">
+				<div class="header-title">
+					<h1><span class="tw">tw</span><span class="i">i</span><span class="nsta">nsta</span></h1>
+				</div>
+				<div class="header-subtitle">
+					<h2>chat with any Twitter user, instantly</h2>
+				</div>
+			</div>
+
+			<div class="prompt-container">
+			  <textarea class="prompt-box handle" placeholder="enter a twitter handle (ex: @FarzaTV)"></textarea>
+			  <textarea class="prompt-box" placeholder="ask them a question here"></textarea>
+			  <div class="prompt-buttons">
+		    	<a class="generate-button">
+			      <div class="generate">
+			        <p>Generate</p>
+			      </div>
+			    </a>
+			  </div>
+			</div>
+
+		    <div class="output">
+		      <div class="output-header-container">
+		        <div class="output-header">
+		          <h3>Output</h3>
+		        </div>
+		      </div>
+		      <div class="output-content">
+		        <p></p>
+		      </div>
+		  </div>
+	</div>
+	<div class="timeline"></div>
+	<div class="badge-container grow">
+		<a href="https://buildspace.so/builds/ai-writer" target="_blank" rel="noreferrer">
+			<div class="badge">
+				<img alt="buildspace logo" src="assets/buildspace-logo.png" width="142" height="120" decoding="async" data-nimg="1" loading="lazy" style="color: transparent">
+				<p>build with buildspace</p>
+			</div>
+		</a>
+	</div>
+</div>
+<script src="script.js"></script>
+<script>window.twttr = (function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0],
+    t = window.twttr || {};
+  if (d.getElementById(id)) return t;
+  js = d.createElement(s);
+  js.id = id;
+  js.src = "https://platform.twitter.com/widgets.js";
+  fjs.parentNode.insertBefore(js, fjs);
+
+  t._e = [];
+  t.ready = function(f) {
+    t._e.push(f);
+  };
+
+  return t;
+}(document, "script", "twitter-wjs"));</script>
+<script type="text/javascript">
+</script>
+</body>
+</html>
