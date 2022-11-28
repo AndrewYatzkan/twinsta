@@ -9,7 +9,7 @@ console.log('OpenAI API configured');
 async function runCompletion(prompt="Hello world", temperature=0.7, max_tokens=250) {
   try {
     const completion = await openai.createCompletion({
-      model: "text-davinci-002",
+      model: "text-davinci-003",
       prompt, temperature, max_tokens
     });
     const output = completion.data.choices.pop();
