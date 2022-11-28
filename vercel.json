@@ -30,6 +30,10 @@
       "dest": "public/assets/buildspace-logo.png"
     },
     {
+      "src": "/assets/github-logo.png",
+      "dest": "public/assets/github-logo.png"
+    },
+    {
       "src": "/assets/favicon.png",
       "dest": "public/assets/favicon.png"
     },
