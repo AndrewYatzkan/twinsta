@@ -28,3 +28,4 @@ site: [twinsta.vercel.app](https://twinsta.vercel.app/)
   - [ ] Use prompt chaining to orchestrate a conversation between multiple Twitter accounts (user can choose to chime in)
 - [ ] Deal with Twitter rate-limiting
 - [ ] Implement rate-limiting and/or queue so I don't get a hefty bill from OpenAI
+- [ ] Ability to easily share insightful or funny responses (could be a tweet button)
