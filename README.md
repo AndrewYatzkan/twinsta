@@ -2,6 +2,8 @@
 
 site: [twinsta.vercel.app](https://twinsta.vercel.app/)
 
+chrome extension: [twinsta](https://chrome.google.com/webstore/detail/twinsta/imodnpdkmjccjjeeagjijoadnfhfngaa)
+
 ## potential improvements
 ### GPT-3
 - [ ] Make `tokenCount` function precise and verify that results are congruent with the [OpenAI Tokenizer](https://beta.openai.com/tokenizer) (good first PR)
